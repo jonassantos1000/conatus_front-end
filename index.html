@@ -19,7 +19,8 @@
     <header class="background">
       <div class="d-flex flex-column mask-image">
         <nav class="navbar navbar-expand-lg navbar-dark text-light">
-          <div class="container-fluid d-flex justify-content-between col-sm-7 col-md-12 col-lg-12 col-xl-9">
+          <div class="container d-flex justify-content-between col-sm-7 col-md-12 col-lg-12 col-xl-9">
+
             <div class="col-sm-3 col-md-5 col-lg-11 d-flex">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
@@ -32,8 +33,6 @@
               </a>
             </div>
 
-
-
             <div class="collapse navbar-collapse text-light" id="navbarTogglerDemo03">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -43,22 +42,59 @@
             </div>
           </div>
         </nav>
-        <div class="lead_inicial container d-flex flex-column flex-grow-1 ps-5 text-light">
-          <div class="ps-1 pt-3 d-flex flex-column flex-grow-1 justify-content-center col-sm-9">
+
+        <div class="lead_inicial container d-flex flex-column flex-grow-1 text-light">
+          <div class="pt-3 d-flex flex-column flex-grow-1 justify-content-center col-sm-9">
             <h1 class="fs-3 font-monospace fw-normal">Nos Preocupamos em Entregar</h1>
             <h2 class="fs-2 font-monospace fw-bold">Soluções Customizadas</p>
               <p class="fs-6 fw-normal">Focamos em oferecer serviços de qualidade e ferramentas que agreguem
                 valores a sua empresa.</p>
               <p class="fs-6 fw-normal w-75">Receba o contato dos nossos consultores de venda.</p>
               <form class="d-flex">
-                <input class="form-control me-2 w-75" type="email" placeholder="E-mail para contato" aria-label="Search">
+                <input class="form-control me-2 w-75" type="email" placeholder="E-mail para contato"
+                  aria-label="Search">
                 <button class="btn btn-light btn-outline-success" type="submit">Enviar</button>
               </form>
           </div>
-
         </div>
       </div>
     </header>
+
+    <main class="d-flex flex-grow-1 flex-column">
+
+      <section class="d-flex align-items-center flex-wrap bg-gray p-4">
+        <div class="container d-flex justify-content-between flex-wrap">
+          <div class="d-flex flex-column col-sm-12 col-md-5 col-lg-2 justify-content-center p-1">
+            <p class="font-opensans fs-5"><span class="fw-bolder">O que Entregamos</span> aos Nossos Usuários</p>
+          </div>
+
+          <div class="d-flex justify-content-around col-9">
+            <div class="bg-gray" style="width: 14rem;">
+              <img src="./assets/img/lampada.gif" class="card-img-top img-fluid rounded w-50" alt="Imagem de uma lampada">
+              <div class="card-body">
+                <h5 class="card-title fs-6">Estratégia e Planejamento</h5>
+                <p class="card-text">Atendimentos personalizados para ajudar sua empresa a alcançar seus objetivos de maneira eficiente e eficaz.</p>
+              </div>
+            </div>
+            <div class="bg-gray" style="width: 14rem;">
+              <img src="./assets/img/grafico-de-linha.gif" class="card-img-top img-fluid rounded w-50" alt="Imagem de um grafico de linha">
+              <div class="card-body">
+                <h5 class="card-title fs-6">Desenvolvimento Rápido</h5>
+                <p class="card-text">Queremos ajudar você a lançar projetos no mercado com velocidade e qualidade excepcionais.</p>
+              </div>
+            </div>
+            <div class="bg-gray" style="width: 14rem;">
+              <img src="./assets/img/decisao-certa.gif" class="card-img-top img-fluid rounded w-50" alt="Imagem de uma lampada">
+              <div class="card-body">
+                <h5 class="card-title fs-6">Produtos Modernos</h5>
+                <p class="card-text">Produtos criados com a mais alta tecnologia disponível no mercado, garantindo qualidade e desempenho para atender às suas necessidades.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
